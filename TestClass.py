@@ -8,7 +8,7 @@ class PythonOrgSearch(unittest.TestCase):
 
     def setUp(self):
         # self.driver = webdriver.Firefox()
-        self.driver = webdriver.Chrome(executable_path = '/home/amarpreet911/Documents/Selenium/Selenium_Files/chromedriver')
+        self.driver = webdriver.Firefox(executable_path = '/home/amarpreet911/Documents/Selenium/Selenium_Files/geckodriver')
         self.driver.get("http://www.python.org")
 
     def test_search_in_python_org(self):
